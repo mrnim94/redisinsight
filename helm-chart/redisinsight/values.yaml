@@ -8,7 +8,7 @@ image:
   repository: redis/redisinsight
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "2.56"
+  tag: "2.58"
 
 imagePullSecrets: []
 nameOverride: ""
