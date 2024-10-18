@@ -1,0 +1,11 @@
+kind: PersistentVolumeClaim
+apiVersion: v1
+metadata:
+  name: {{ .Values.PersistentVolumeClaim.name | default "redis-insight-pvc" }}
+spec:
+  accessModes:
+    - ReadWriteOnce
+  resources:
+    requests:
+      storage: {{ .Values.PersistentVolumeClaim.storage }}
+  storageClassName: {{ .Values.storageClass.name }}
