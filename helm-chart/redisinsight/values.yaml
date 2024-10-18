@@ -104,7 +104,7 @@ PersistentVolumeClaim:
 volumes:
   - name: redis-volume
     persistentVolumeClaim:
-    claimName: pvc-redis-insight
+      claimName: pvc-redis-insight
 # - name: foo
 #   secret:
 #     secretName: mysecret
