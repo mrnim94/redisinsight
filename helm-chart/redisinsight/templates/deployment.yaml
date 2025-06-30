@@ -46,8 +46,8 @@ spec:
             {{- toYaml .Values.readinessProbe | nindent 12 }}
           resources:
             {{- toYaml .Values.resources | nindent 12 }}
-          {{- if .Values.persistence.enabled }}
           volumeMounts:
+          {{- if .Values.persistence.enabled }}
             - name: data
               mountPath: /data
           {{- end }}
