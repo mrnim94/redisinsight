@@ -46,16 +46,20 @@ spec:
             {{- toYaml .Values.readinessProbe | nindent 12 }}
           resources:
             {{- toYaml .Values.resources | nindent 12 }}
+          {{- if .Values.persistence.enabled }}
           volumeMounts:
             - name: data
               mountPath: /data
+          {{- end }}
           {{- with .Values.volumeMounts }}
           {{- toYaml . | nindent 12 }}
           {{- end }}
+      {{- if .Values.persistence.enabled }}
       volumes:
         - name: data
           persistentVolumeClaim:
             claimName: {{ include "redisinsight.fullname" . }}-data
+      {{- end }}
       {{- with .Values.volumes }}
       {{- toYaml . | nindent 8 }}
       {{- end }}
