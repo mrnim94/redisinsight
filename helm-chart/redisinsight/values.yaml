@@ -4,6 +4,13 @@
 
 replicaCount: 1
 
+# Deployment strategy. With persistence enabled (ReadWriteOnce volume), use
+# Recreate: with RollingUpdate a new pod scheduled on another node cannot attach
+# the volume while the old pod still holds it (Multi-Attach) and the rollout hangs.
+# strategy:
+#   type: Recreate
+strategy: {}
+
 image:
   repository: redis/redisinsight
   pullPolicy: IfNotPresent
