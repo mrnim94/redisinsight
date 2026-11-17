@@ -2,8 +2,28 @@ apiVersion: v1
 entries:
   redisinsight:
   - apiVersion: v2
+    appVersion: "3.10"
+    created: "2026-11-17T14:35:11.704150718Z"
+    description: Redisinsight helm chart for Kubernetes
+    digest: 81302cf0936f777eaff5adf151f30ea6341c893b4b87c147cc3b634ae1430209
+    home: https://nimtechnology.com/
+    icon: https://raw.githubusercontent.com/mrnim94/redisinsight/master/redisinsight.png
+    keywords:
+    - redis
+    - redisinsight
+    maintainers:
+    - email: mr.nim94@gmail.com
+      name: Nim
+    name: redisinsight
+    sources:
+    - https://github.com/mrnim94/redisinsight
+    type: application
+    urls:
+    - https://mrnim94.github.io/redisinsight/redisinsight-1.3.6.tgz
+    version: 1.3.6
+  - apiVersion: v2
     appVersion: "3.8"
-    created: "2026-07-21T13:35:13.269981577Z"
+    created: "2026-11-17T14:35:11.703856099Z"
     description: Redisinsight helm chart for Kubernetes
     digest: 97fc028d4e5be9618b7f006330a02c8d1ca4dc5f1d29c63a8979d14acfb7ac47
     home: https://nimtechnology.com/
@@ -23,7 +43,7 @@ entries:
     version: 1.3.5
   - apiVersion: v2
     appVersion: "3.6"
-    created: "2026-07-21T13:35:13.269599957Z"
+    created: "2026-11-17T14:35:11.703531716Z"
     description: Redisinsight helm chart for Kubernetes
     digest: 704ac3a3259e1a6b50e41294aed32fdb965edfb9a9a059d6c46aa164ed700bb4
     home: https://nimtechnology.com/
@@ -43,7 +63,7 @@ entries:
     version: 1.3.4
   - apiVersion: v2
     appVersion: "3.4"
-    created: "2026-07-21T13:35:13.269182803Z"
+    created: "2026-11-17T14:35:11.703232894Z"
     description: Redisinsight helm chart for Kubernetes
     digest: ae0a18635f1e5c91785fb72b03a372b88d81a26947105d980bd64893c675590a
     home: https://nimtechnology.com/
@@ -63,7 +83,7 @@ entries:
     version: 1.3.3
   - apiVersion: v2
     appVersion: "3.2"
-    created: "2026-07-21T13:35:13.268789025Z"
+    created: "2026-11-17T14:35:11.702872068Z"
     description: Redisinsight helm chart for Kubernetes
     digest: 28162c6b9296ab1f216e9d9a82b4af1c7b090a792ef82a8e0310030b695ffda0
     home: https://nimtechnology.com/
@@ -83,7 +103,7 @@ entries:
     version: 1.3.2
   - apiVersion: v2
     appVersion: "2.70"
-    created: "2026-07-21T13:35:13.268402297Z"
+    created: "2026-11-17T14:35:11.70209389Z"
     description: Redisinsight helm chart for Kubernetes
     digest: 26544693627cccdf47fa257bc6863e2479e3e1bd829e3309b91a72cdd3c0d407
     home: https://nimtechnology.com/
@@ -103,7 +123,7 @@ entries:
     version: 1.3.1
   - apiVersion: v2
     appVersion: "2.70"
-    created: "2026-07-21T13:35:13.267980817Z"
+    created: "2026-11-17T14:35:11.701499051Z"
     description: Redisinsight helm chart for Kubernetes
     digest: ad3b59bab542b955ac8cc9757e80d0d5203788e57180ef014641af81a31c0caf
     home: https://nimtechnology.com/
@@ -123,7 +143,7 @@ entries:
     version: 1.3.0
   - apiVersion: v2
     appVersion: "2.58"
-    created: "2026-07-21T13:35:13.267575531Z"
+    created: "2026-11-17T14:35:11.701169964Z"
     description: Redisinsight helm chart for Kubernetes
     digest: 0b9fb7aa5f5f020211b3a59424a7e50601b223b8d82b0cbfd68e87f35cd2ef6d
     home: https://nimtechnology.com/
@@ -143,7 +163,7 @@ entries:
     version: 1.2.0
   - apiVersion: v2
     appVersion: "2.56"
-    created: "2026-07-21T13:35:13.267134882Z"
+    created: "2026-11-17T14:35:11.700850181Z"
     description: Redisinsight helm chart for Kubernetes
     digest: c4344611705295763c5ff486a6ec55880d5636afc569bd784fe7f04386b78fd2
     home: https://nimtechnology.com/
@@ -163,7 +183,7 @@ entries:
     version: 1.1.0
   - apiVersion: v2
     appVersion: "2.54"
-    created: "2026-07-21T13:35:13.266728414Z"
+    created: "2026-11-17T14:35:11.700528249Z"
     description: Redisinsight helm chart for Kubernetes
     digest: b7c27982a2649b471dc6d2746e125fd15aa5d2f7cfd2d201e9c09ff0cfde7935
     home: https://nimtechnology.com/
@@ -183,7 +203,7 @@ entries:
     version: 1.0.1
   - apiVersion: v2
     appVersion: "2.54"
-    created: "2026-07-21T13:35:13.26630394Z"
+    created: "2026-11-17T14:35:11.700192305Z"
     description: Redisinsight helm chart for Kubernetes
     digest: 1f6c147548452a75161d77be07318c013a909a45ee28a08412abe2a633b50168
     home: https://nimtechnology.com/
@@ -201,4 +221,4 @@ entries:
     urls:
     - https://mrnim94.github.io/redisinsight/redisinsight-1.0.0.tgz
     version: 1.0.0
-generated: "2026-07-21T13:35:13.265700077Z"
+generated: "2026-11-17T14:35:11.699673117Z"
